@@ -5,7 +5,14 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartProperty.Sandbox", "SmartProperty.Sandbox\SmartProperty.Sandbox.csproj", "{C6A80AC8-C03F-4E6D-B889-E9C42DCCDCC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartProperty", "SmartProperty\SmartProperty.csproj", "{A62AC94D-854B-4411-8351-B8EB7578659F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartProperty", "SmartProperty\SmartProperty.csproj", "{A62AC94D-854B-4411-8351-B8EB7578659F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{C9D57D0F-74B0-46A2-9BC6-239F12539548}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
