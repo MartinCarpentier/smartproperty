@@ -8,7 +8,7 @@ using SmartProperty;
 
 var generator = SmartPropertyFactory.Create();
 
-string field = "[Bogus.ParseLocaleWithSeed('{{name.firstname(Male)}} {{name.lastname}}', 'en_US', 1241241)]";
+string field = "[Bogus.Parse('{{Random.Number(0,200)}}')]";
 string generatedProperty = "";
 if (generator.IsValidSmartProperty(field, out var errorMessage))
 {
